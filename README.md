@@ -1,6 +1,6 @@
 # OpenSearch - Docker - Compose
 
-![OpenSearch version](https://img.shields.io/badge/OpenSearch%20version-2.19.1-blue)
+![OpenSearch version](https://img.shields.io/badge/OpenSearch%20version-3.4.0-blue)
 
 Dockerized cluster architecture for OpenSearch with compose.
 
@@ -9,6 +9,8 @@ Dockerized cluster architecture for OpenSearch with compose.
 - OpenSearch is [the successor of OpenDistro](https://opendistro.github.io/for-elasticsearch/blog/2021/06/forward-to-opensearch/)
 - OpenSearch = Elasticsearch
 - OpenSearch Dashboards = Kibana
+
+> **Note**: Upgrading from 2.x to 3.x requires all index data written with OpenSearch 1.x (or ES 7.x) to be re-indexed into OpenSearch 2.x prior to upgrading.
 
 ## Cluster setup
 
