@@ -12,3 +12,9 @@ server.ssl.key: "/usr/share/opensearch-dashboards/config/certificates/os-dashboa
 # Encrypt traffic between OpenSearch-Dashboards and Opensearch
 opensearch.ssl.certificateAuthorities: ["/usr/share/opensearch-dashboards/config/certificates/ca/ca.pem"]
 opensearch.ssl.verificationMode: full
+
+# OpenSearch Dashboards 3.x new features
+# Enable these for the enhanced Discover experience
+data_source.enabled: true
+workspace.enabled: true
+explore.enabled: true
